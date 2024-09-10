@@ -2,14 +2,13 @@
   "name": "jzonta/faker-restaurant",
   "description": "Food and Beverage names generate using fakerphp/faker",
   "homepage": "https://github.com/jzonta/FakerRestaurant",
-  "version": "2.0.1",
   "license": "MIT",
   "authors": [
     { "name": "João Zonta" }
   ],
   "require": {
-    "php": ">=7.1",
-    "fakerphp/faker": "^1.9.1"
+    "php": ">=8.0",
+    "fakerphp/faker": "^1.23"
   },
   "autoload": {
     "psr-4": {
@@ -18,7 +17,7 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^9",
-    "phpstan/phpstan": "^0.12.66",
-    "friendsofphp/php-cs-fixer": "^2.17"
+    "phpstan/phpstan": "^0.12",
+    "friendsofphp/php-cs-fixer": "^3.13"
   }
 }
